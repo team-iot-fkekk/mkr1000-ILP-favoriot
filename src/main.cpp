@@ -1,15 +1,15 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include <WiFi101.h>
-#include "secrets.h"
+//#include "secrets.h"
 
 #define sensorPin 0
 //#define pushButton 7
 
-char ssid[] = YOUR_SSID;                            // change it!
-char pass[] = YOUR_PASSWORD;                        // change it!
+char ssid[] = "YOUR_SSID";                            // change it!
+char pass[] = "YOUR_PASSWORD";                        // change it!
 //const String yourDevice = YOUR_DEVICE_DEVELOPER_ID; // change it!
-String apikey = YOUR_APIKEY;
+String apikey = "YOUR_APIKEY";
 
 int status = WL_IDLE_STATUS;
 char serverAddr[] = "apiv2.favoriot.com";
